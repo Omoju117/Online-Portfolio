@@ -1,3 +1,5 @@
+/* eslint @typescript-eslint/no-floating-promises: 0 */
+/* eslint @typescript-eslint/explicit-module-boundary-types: 0 */
 import { ReportHandler } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
