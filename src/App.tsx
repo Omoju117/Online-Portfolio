@@ -11,7 +11,7 @@ const App: VFC = () => (
     <Helmet>
       <style>{'body { background-color: #072537; }'}</style>
     </Helmet>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <About />
