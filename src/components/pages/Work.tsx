@@ -11,7 +11,7 @@ import SiteHeader from '../templates/SiteHeader';
 const Work: VFC = () => {
   const page = 'Work';
   const title = 'Portfolio';
-  const description = 'プライベートでアウトプットしている活動・作品を紹介。';
+  const description = 'プライベートでアウトプットしている活動・作品をご紹介。';
 
   return (
     <>
