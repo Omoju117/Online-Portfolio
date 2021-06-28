@@ -13,7 +13,7 @@ const Description: VFC<Props> = ({ page, title, description }) => (
         <div className="icon-space">
           <img
             className="portfolio-icon"
-            src="portfolioIcon.png"
+            src="PortfolioIcon.png"
             alt="Profile Icon"
           />
         </div>

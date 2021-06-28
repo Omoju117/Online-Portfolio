@@ -39,7 +39,7 @@ const Work: VFC = () => {
               cardType="work"
               imgSrc="Drag&DropTaskList_image.png"
               information={cardInfoTaskList}
-              to="https://github.com/Omoju117/Dnd-Task-List"
+              to="https://omoju117.github.io/DragAndDrop-TaskList/"
             />
           </li>
         </ul>
