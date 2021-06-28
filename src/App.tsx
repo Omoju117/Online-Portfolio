@@ -9,7 +9,7 @@ import Work from './components/pages/Work';
 const App: VFC = () => (
   <div className="App">
     <Helmet>
-      <style>{'body { background-color: #072537; }'}</style>
+      <style>{'body { background-color: #03141e; }'}</style>
     </Helmet>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>

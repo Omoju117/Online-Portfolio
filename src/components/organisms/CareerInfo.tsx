@@ -7,7 +7,7 @@ type Props = {
 
 const CareerInfo: VFC<Props> = ({ careerDescription }) => (
   <>
-    <div className="career-info-container">
+    <div className="career-info-container bgleft">
       <div className="career-info-left">
         <p className="career-happen-time">{careerDescription.when}</p>
         <h1 className="career-event">{careerDescription.careerEvent}</h1>

@@ -15,7 +15,7 @@ const Skill: VFC = () => {
   const page = 'Skill';
   const title = 'Portfolio';
   const description =
-    '現職、及びプライベートで使用している技術・ツールを紹介。';
+    '現在在籍中の企業、及びプライベートで使用している技術・ツールをご紹介。';
 
   return (
     <>
