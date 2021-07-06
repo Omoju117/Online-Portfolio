@@ -20,7 +20,7 @@ export const cardInfoTypeScript: CardInformation = {
   type: 'Programming Language',
   title: 'TypeScript',
   description:
-    '大手建設会社向けWebアプリケーションの開発において約1年間使用。また、当ポートフォリオや自家製アプリケーションにも使用しています。最も好きな言語。',
+    '大手建設会社向けWebアプリケーションの開発において約1年間使用。また、当ポートフォリオや自家製アプリケーションにも使用。最も好きな言語。',
 };
 
 // Java
@@ -73,9 +73,9 @@ export const cardInfoIllustration: CardInformation = {
 // Application
 export const cardInfoTaskList: CardInformation = {
   type: 'Application',
-  title: 'Drag & Drop TaskList ↗︎',
+  title: 'Drag & Drop_ TaskList ↗︎',
   description:
-    'ドラッグアンドドロップで管理可能なタスクリスト。React + TypeScriptによる自家製アプリケーション。',
+    'ドラッグアンドドロップで管理可能なタスクリスト。React + TypeScript製。',
 };
 
 /* About */
@@ -91,7 +91,7 @@ export const graduateSeijo: CareerDescription = {
   when: '2018/03/31',
   careerEvent: '成城大学文芸学部卒業',
   description:
-    '4年間芸術について専攻した大学を卒業。その後横浜市の公務員試験を目指して就職浪人。',
+    '4年間芸術について専攻した大学を卒業。その後、横浜市の公務員試験を受験するために就職浪人する。',
 };
 
 export const joinedNicCo: CareerDescription = {

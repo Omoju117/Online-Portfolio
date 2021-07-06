@@ -1,10 +1,3 @@
-.App {
-  position: relative;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 /* Common */
 ul {
   list-style: none;
@@ -26,8 +19,8 @@ a:hover {
 }
 
 .wrapper {
-  padding: 0 40px;
-  margin: 0 80px;
+  padding: 0 2%;
+  margin: 0 3%;
 }
 
 /* SiteHeader */
@@ -57,9 +50,14 @@ a:hover {
 }
 
 /* Description */
+.icon-space {
+  width: 40%;
+  height: 100%;
+}
+
 .portfolio-icon {
-  width: 368px;
-  height: 256px;
+  width: 100%;
+  height: 100%;
 }
 
 .description-container {
@@ -67,31 +65,40 @@ a:hover {
   top: 152px; */
   display: flex;
   align-items: center;
+  width: 95%;
+}
+
+.description-space {
+  width: 70%;
+  height: 100%;
 }
 
 .description-space > h1 {
   margin: 0;
-  font-size: 1em;
+  font-size: 2vw;
 }
 
 .description-space > h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 .description-space p {
-  font-size: 0.825em;
+  font-size: 1.55vw;
 }
 
 /* Card */
 .card-container {
   /* z-index: 10; */
-  width: 464px;
-  height: 480px;
-  padding: 0 16px;
+
+  width: 100%;
+  height: 100%;
+
+  /* padding: 0 4%;
+  margin: 2% 2%; */
   cursor: pointer;
   background: #2b7d99;
-  border-radius: 16px;
+  border-radius: 4%;
   transition: 0.75s;
 }
 
@@ -107,26 +114,35 @@ a:hover {
   background: #03141e;
 } */
 
+.card-img-space {
+  width: 92%;
+  height: 26%;
+  padding: 4% 0% 3.5% 3.5%;
+}
+
 .card-img-space > img {
-  width: 95%;
+  width: 100%;
   background: bisque;
   border-radius: 16px;
 }
 
 .card-description-space {
-  padding: 16px;
+  width: 90%;
+  height: 40%;
+  padding: 6%;
 }
 
 .card-description-space > h1 {
-  font-size: 0.75em;
+  font-size: 1.3vw;
 }
 
 .card-description-space > h2 {
-  font-size: 1.7em;
+  margin: 1% 0;
+  font-size: 4vw;
 }
 
 .card-description-space > p {
-  font-size: 0.75em;
+  font-size: 1.2vw;
 }
 
 input {
@@ -135,12 +151,22 @@ input {
 
 /* Cards Space */
 .cards-space-container {
+  position: relative;
+  left: 6%;
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
+  margin: 2% 2%;
 }
 
-.cards-space-container * {
-  margin: 8px;
+.cards-space-container > li {
+  width: 40%;
+  margin: 1% 1%;
+}
+
+.cards-space-container > li > div {
+  width: 100%;
+  height: 100%;
 }
 
 /* Card color */
@@ -161,7 +187,7 @@ li:nth-of-type(5) .skill {
 }
 
 li:nth-of-type(6) .skill {
-  background: #a6bf40;
+  background: #24599e;
 }
 
 li:nth-of-type(1) .work {
@@ -173,7 +199,7 @@ li:nth-of-type(2) .work {
 }
 
 li:nth-of-type(3) .work {
-  background: #24599e;
+  background: #a6bf40;
 }
 
 /* careerInfo */
@@ -183,28 +209,28 @@ li:nth-of-type(3) .work {
 } */
 
 .career-happen-time {
-  padding-top: 40px;
+  padding-top: 3.5vw;
   margin: 0;
-  font-size: 0.7em;
+  font-size: 1.3vw;
   color: #dcdcdc;
 }
 
 .career-event {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 2.2vw;
 }
 
 .career-description {
-  padding: 40px 64px;
-  font-size: 0.8em;
+  padding: 3vw 4.5vw;
+  font-size: 1.5vw;
 }
 
 .career-info-left {
-  width: 480px;
+  width: 40%;
 }
 
 .career-info-right {
-  width: 680px;
+  width: 58%;
 }
 
 /* キャリアインフォのアニメーション */
@@ -212,7 +238,7 @@ li:nth-of-type(3) .work {
   /* アニメーションの起点とするためrelativeを指定 */
   position: relative;
   display: flex;
-  padding: 10px 30px;
+  padding: 1vw 3vw;
   overflow: hidden;
 
   /* アニメーションの指定 */
@@ -260,4 +286,9 @@ li:nth-of-type(3) .work {
 .bgleft:hover::before {
   transform: scale(1, 1);
   transform-origin: left top;
+}
+
+.App {
+  font-size: calc(10px + 2vmin);
+  color: white;
 }

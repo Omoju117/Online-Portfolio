@@ -30,16 +30,16 @@ const Work: VFC = () => {
           <li>
             <Card
               cardType="work"
-              imgSrc="Illustration_image.png"
-              information={cardInfoIllustration}
+              imgSrc="Drag&DropTaskList_image.png"
+              information={cardInfoTaskList}
+              to="https://omoju117.github.io/DragAndDrop-TaskList/"
             />
           </li>
           <li>
             <Card
               cardType="work"
-              imgSrc="Drag&DropTaskList_image.png"
-              information={cardInfoTaskList}
-              to="https://omoju117.github.io/DragAndDrop-TaskList/"
+              imgSrc="Illustration_image.png"
+              information={cardInfoIllustration}
             />
           </li>
         </ul>
