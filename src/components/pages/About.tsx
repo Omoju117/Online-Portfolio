@@ -14,7 +14,7 @@ const About: VFC = () => {
   const page = 'About';
   const title = 'Portfolio | 遠藤主樹';
   const description =
-    'UIデザインの理解・提案ができるフロントエンジニアとしてのキャリアアップを目指して転職活動中。25歳。 GitHub：@Omoju117';
+    'UI/UXデザインの理解・提案ができるフロントエンドエンジニアとしてのキャリアアップを目指して転職活動中。25歳。 GitHub：@Omoju117';
 
   return (
     <>
