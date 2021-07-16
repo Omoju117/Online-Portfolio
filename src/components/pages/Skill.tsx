@@ -2,6 +2,7 @@ import { VFC } from 'react';
 import {
   cardInfoAdobeXd,
   cardInfoAngular,
+  cardInfoAws,
   cardInfoJava,
   cardInfoPhotoshop,
   cardInfoReact,
@@ -63,6 +64,13 @@ const Skill: VFC = () => {
               cardType="skill"
               imgSrc="AdobeXd_logo.png"
               information={cardInfoAdobeXd}
+            />
+          </li>
+          <li>
+            <Card
+              cardType="skill"
+              imgSrc="AWS_logo.png"
+              information={cardInfoAws}
             />
           </li>
         </ul>
