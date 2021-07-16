@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import About from './components/pages/About';
 import Skill from './components/pages/Skill';
 import Work from './components/pages/Work';
+import Books from './components/pages/Books';
 
 const App: VFC = () => (
   <div className="App">
@@ -21,6 +22,9 @@ const App: VFC = () => (
         </Route>
         <Route path="/work">
           <Work />
+        </Route>
+        <Route path="/books">
+          <Books />
         </Route>
       </Switch>
     </BrowserRouter>

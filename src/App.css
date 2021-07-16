@@ -292,3 +292,54 @@ li:nth-of-type(3) .work {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* Books */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  border: dashed #03141e;
+}
+
+table tr:nth-child(odd) {
+  color: white;
+  background-color: rgb(51, 72, 98);
+}
+
+table tr:nth-child(even) {
+  color: white;
+  background-color: rgb(57, 84, 117);
+}
+
+.books-container {
+  position: relative;
+  left: 15%;
+  width: 75%;
+  font-size: 1.5vw;
+
+  /* color: #24599e;
+  background: white; */
+  border-radius: 16px;
+}
+
+.books-container > table > tbody > tr > td {
+  padding-left: 12px;
+}
+
+.books-container > table > thead > tr > td {
+  text-align: center;
+}
+
+.focus-book-title {
+  background: #2b7d99;
+}
+
+.book-title {
+  transition: ease 0.4s;
+}
+
+.book-title:hover {
+  background: #a26946;
+}
