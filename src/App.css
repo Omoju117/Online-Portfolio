@@ -1,4 +1,4 @@
-/* Common */
+/* ------------------ Common ------------------ */
 ul {
   list-style: none;
 }
@@ -23,7 +23,7 @@ a:hover {
   margin: 0 3%;
 }
 
-/* SiteHeader */
+/* ------------------ SiteHeader ------------------ */
 .site-header {
   /* position: sticky;
   position: -webkit-sticky;
@@ -45,7 +45,6 @@ a:hover {
 }
 
 .site-header-navigation {
-  /* z-index: 100; */
   border-radius: 8px;
 }
 
@@ -87,7 +86,7 @@ a:hover {
   font-size: 1.55vw;
 }
 
-/* Card */
+/* ------------------ Card ------------------ */
 .card-container {
   /* z-index: 10; */
 
@@ -109,10 +108,6 @@ a:hover {
 .work:hover {
   transform: translateY(-10px);
 }
-
-/* .test {
-  background: #03141e;
-} */
 
 .card-img-space {
   width: 92%;
@@ -149,7 +144,7 @@ input {
   display: none;
 }
 
-/* Cards Space */
+/* ------------------ Cards Space ------------------ */
 .cards-space-container {
   position: relative;
   left: 6%;
@@ -169,7 +164,7 @@ input {
   height: 100%;
 }
 
-/* Card color */
+/* ------------------ Card color ------------------ */
 li:nth-of-type(2) .skill {
   background: #eb9742;
 }
@@ -202,11 +197,7 @@ li:nth-of-type(3) .work {
   background: #a6bf40;
 }
 
-/* careerInfo */
-
-/* .career-info-container {
-  display: flex;
-} */
+/* ------------------ careerInfo ------------------ */
 
 .career-happen-time {
   padding-top: 3.5vw;
@@ -233,7 +224,7 @@ li:nth-of-type(3) .work {
   width: 58%;
 }
 
-/* キャリアインフォのアニメーション */
+/* ------------------ キャリアインフォのアニメーション ------------------ */
 .career-info-container {
   /* アニメーションの起点とするためrelativeを指定 */
   position: relative;
@@ -293,7 +284,7 @@ li:nth-of-type(3) .work {
   color: white;
 }
 
-/* Books */
+/* ------------------ Books ------------------ */
 table {
   border-spacing: 0;
   border-collapse: collapse;
