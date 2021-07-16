@@ -17,6 +17,9 @@ const SiteHeader: VFC = () => (
               <li className="nav-item">
                 <Link to="/work">Work</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/books">Books</Link>
+              </li>
             </ul>
           </nav>
         </div>
