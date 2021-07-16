@@ -76,7 +76,7 @@ export const cardInfoTaskList: CardInformation = {
   title: 'D&D TaskList ↗︎',
   description:
     'ドラッグ&ドロップで管理可能なタスクリスト。' +
-    ' React + TypeScript/SpringBoot + MyBatis/AWS(EC2)',
+    ' React+Redux+TypeScript/SpringBoot+MyBatis /AWS(Elastic Beanstalk)',
 };
 
 /* About */
