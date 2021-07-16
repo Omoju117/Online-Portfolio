@@ -25,10 +25,16 @@ a:hover {
 
 /* ------------------ SiteHeader ------------------ */
 .site-header {
+  width: 100vw;
+
   /* position: sticky;
   position: -webkit-sticky;
-  top: 0; */
+  top: 0;
+  z-index: 10; */
   padding: 24px 0;
+
+  /* background: #03141e; */
+  font-size: 1.8vw;
 }
 
 .site-header-inner {
@@ -142,6 +148,10 @@ a:hover {
 
 input {
   display: none;
+}
+
+.about-text > div > h1 {
+  font-size: 4vw;
 }
 
 /* ------------------ Cards Space ------------------ */
@@ -323,14 +333,11 @@ table tr:nth-child(even) {
   text-align: center;
 }
 
-.focus-book-title {
-  background: #2b7d99;
-}
-
-.book-title {
+.book-info {
+  cursor: pointer;
   transition: ease 0.4s;
 }
 
-.book-title:hover {
+.book-info:hover {
   background: #a26946;
 }
